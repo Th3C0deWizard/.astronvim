@@ -37,6 +37,7 @@ return {
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
+          "haskell",
         },
       },
       disabled = { -- disable formatting capabilities for the listed language servers
@@ -51,6 +52,7 @@ return {
     -- enable servers that you already have installed without mason
     servers = {
       -- "pyright"
+      "hls",
     },
   },
 

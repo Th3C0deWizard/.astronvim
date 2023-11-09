@@ -54,6 +54,14 @@ return {
       -- "pyright"
       "hls",
     },
+    config = {
+      hls = {
+        formattingProvider = "stylish-haskell",
+      },
+      matlab_ls = {
+        single_file_support = true,
+      },
+    },
   },
 
   -- Configure require("lazy").setup() options

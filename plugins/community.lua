@@ -5,6 +5,9 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
+  { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
   { import = "astrocommunity.completion.copilot-lua" },
   { -- further customize the options set by the community
     "zbirenbaum/copilot.lua",
